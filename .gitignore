@@ -248,5 +248,5 @@ gradlew.bat
 gradle-wrapper.properties
 
 ##cordova project ignore
-fe/cannon/platforms/
-fe/cannon/plugins/
+fe/canon/platforms/
+fe/canon/plugins/
