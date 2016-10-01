@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.com.normal.SuperMan">
+  <select id="selectSuperMan" resultType="org.com.normal.SuperMan">
+    select * from superman where id = #{id}
+  </select>
+  
+  <insert id="insertSuperMan" parameterType="array">
+  		insert into superman (id, name) values (#{id}, #{name})
+  </insert>
+</mapper>
