@@ -169,7 +169,7 @@ fabric.properties
 
 # *.iml
 # modules.xml
-# .idea/misc.xml 
+# .idea/misc.xml
 # *.ipr
 
 
@@ -247,3 +247,6 @@ gradlew.bat
 
 gradle-wrapper.properties
 
+##cordova project ignore
+fe/cannon/platforms/
+fe/cannon/plugins/
