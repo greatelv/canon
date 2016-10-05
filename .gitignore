@@ -169,7 +169,7 @@ fabric.properties
 
 # *.iml
 # modules.xml
-# .idea/misc.xml 
+# .idea/misc.xml
 # *.ipr
 
 
@@ -227,9 +227,26 @@ gradle-app.setting
 
 # Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
 !gradle-wrapper.jar
-
+gradle-wrapper.jar
 # Cache of project
 .gradletasknamecache
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+/gradlew
+/gradlew.*
+/gradlew.bat
+
+/gradle-wrapper.properties
+
+
+
+gradlew
+gradlew.*
+gradlew.bat
+
+gradle-wrapper.properties
+
+##cordova project ignore
+fe/canon/platforms/
+fe/canon/plugins/
